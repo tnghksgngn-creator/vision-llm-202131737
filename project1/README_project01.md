@@ -72,13 +72,13 @@ PY
 ## 4. 실행 방법
 
 1. USB 카메라를 Jetson에 연결한다.
-2. `mp_test.py`와 모델 파일을 위의 제출 폴더 구성대로 배치한다.
+2. `mp_love_prpject01.py`와 모델 파일을 위의 제출 폴더 구성대로 배치한다.
 3. Jetson의 데스크톱 터미널에서 기존 실습용 Python 환경을 활성화한다. 별도 가상환경을 사용하지 않았다면 이 단계는 생략한다.
 4. 저장소 최상위 폴더에서 아래 명령을 실행한다.
 
 ```bash
 cd Project01
-python3 mp_test.py
+python3 mp_love_project01.py
 ```
 
 모델 경로는 코드에 다음과 같이 지정되어 있다.
