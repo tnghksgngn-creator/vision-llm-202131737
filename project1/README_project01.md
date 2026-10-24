@@ -13,7 +13,7 @@ NVIDIA Jetson Orin Nano에 연결한 USB 카메라에서 영상을 받아 손 �
 | 저장소 기준 경로 | 역할 |
 | --- | --- |
 | `Project01/README.md` | 프로젝트 설명, 실행 방법 및 의존성 안내 |
-| `Project01/mp_test.py` | 카메라 입력, 손 검출, 글자 판별, 결과 표시를 통합한 실행 파일 |
+| `Project01/mp_love_project01.py` | 카메라 입력, 손 검출, 글자 판별, 결과 표시를 통합한 실행 파일 |
 | `Project01/src/models/MediaPipe/hand_landmarker.task` | 손 검출에 필요한 MediaPipe 모델 파일 |
 
 실행 코드는 `mp_test.py` 한 파일에 통합되어 있다. 별도의 `vision.py`, `jetson.py`, Flask 서버는 필요하지 않다. 모델 파일은 실행 코드와 별도로 필요하다.
